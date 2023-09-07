@@ -10,8 +10,8 @@ def get_info():
     track = request.args.get('track')
     current_day = datetime.datetime.utcnow().strftime('%A')
     utc_time = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
-    github_file_url = "https://github.com/username/repo/blob/main/file_name.ext"
-    github_repo_url = "https://github.com/username/repo"
+    github_file_url = "https://github.com/hashkitti001/HNG9BackendTasks/blob/main/api.py"
+    github_repo_url = "https://github.com/hashkitti001/HNG9BackendTasks"
     status_code = 200
 
     response = {
