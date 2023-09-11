@@ -45,4 +45,4 @@ def handle_person(name):
         db.commit()
         return jsonify({"message": "Person deleted successfully"})
     if __name__ == '__main__':
-        app.run(host='0.0.0.0', port=5000)
+       app.run(host='0.0.0.0', port=5000)
