@@ -44,5 +44,5 @@ def handle_person(name):
         cursor.execute("delete from persons where name=?", (name,))
         db.commit()
         return jsonify({"message": "Person deleted successfully"})
-    if __name__ == "__main__":
+    if __name__ == '__main__':
         app.run(host='0.0.0.0', port=5000)
