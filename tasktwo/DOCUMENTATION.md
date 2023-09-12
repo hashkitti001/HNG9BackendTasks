@@ -8,10 +8,12 @@ This documentation provides information on how to use the Person API.
 The base URL for all API endpoints is:
 
 ```
-[https://crudhngapi2.onrender.com/]
+https://crudhngapi2.onrender.com/
 ```
-
-Replace this with the appropriate base URL if you deploy the API to a different server.
+You can test the API with this dummy query
+```
+https://crudhngapi2.onrender.com/persons/Abel Tesfaye
+```
 
 ## Endpoints
 
